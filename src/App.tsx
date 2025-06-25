@@ -7,6 +7,7 @@ import CreateEventPage from './pages/CreateEventPage';
 import PremiumPage from './pages/PremiumPage';
 import LoginPage from './pages/LoginPage';
 import ProfilePage from './pages/ProfilePage';
+import Sorties from './pages/Sorties';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/premium" element={<PremiumPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+           <Route path="/sorties" element={<Sorties/>} />
         </Routes>
       </Layout>
     </Router>
